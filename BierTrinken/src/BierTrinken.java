@@ -1,0 +1,16 @@
+/*
+ * Erstes Beispiel für eine for- oder Zählschleife
+ * Besteht (in dem Kontext von Kontrollstrukturen)
+ * ein Block nur aus einer Anweisung,
+ * dürfen die geschweiften Klammern darum entfallen
+ */
+
+public class BierTrinken {
+
+	public static void main(String[] args) {
+		
+		for (int striche=0; striche<5; striche = striche+1) 
+			System.out.println("Ich trinke ein Bier");
+
+	}
+}
